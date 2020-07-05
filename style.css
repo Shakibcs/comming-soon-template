@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+*{margin:0;padding:0;}
+body{background:#00AFF0;font-family: 'Open Sans', sans-serif;}
+.column, .column h1, .column h2, .social_profiles a{transition:all 0.9s ease 0s;-moz-transition:all 0.9s ease 0s;-webkit-transition:all 0.9s ease 0s;
+	-o-transition:all 0.9s ease 0s;
+}
+
+.column{text-align:center;color:#fff;}
+.column h1{font-size:40px;margin-top:114px;margin-bottom:48px;font-weight: normal;line-height: 50px;margin-bottom: 50px;}
+.column h2{line-height:35px;font-weight:normal;margin-bottom: 40px;font-size: 30px;}
+.column h2 span{background:#fff;color:#00AFF0;padding:0 10px}
+
+.column h1:hover{font-size:60px;}
+.column h2:hover{font-size:55px;}
+
+.social_profiles a{text-decoration:none;padding:;color:#fff;font-size:15px;padding:10px;margin-top: 5px;margin-left: 17px;}
+.social_profiles a:hover{font-size:25px;padding:10px;margin-top: 5px;margin-left: 17px;}
+
+.facebook{background:#3A589B;}
+.twitter{background:#32CEFF;}
+.gplus{background:#DE4C40;}
+
+
+.facebook:hover{background:#3A36C8;}
+.twitter:hover{background:#32F2F2;}
+.gplus:hover{background:#DE060D;}
